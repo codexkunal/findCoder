@@ -1,8 +1,6 @@
-.landing_page_buttons{
-    /* border: 1px solid black; */
-    /* display: flex; */
-    /* max-width: 30rem; */
-    /* justify-content: space-between; */
+.container{
+    border: 2px solid red;
+      width: 80%;
 }
 
 @media(max-width : 1280px){
