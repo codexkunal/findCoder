@@ -11,7 +11,7 @@ import {
 import './landingPages.css'
 import david from '../assets/david.jpg'
 import jug from '../assets/jug.jpeg'
-import kunal from '../assets/kunal.jpeg'
+import Kunal from '../assets/kunal.jpeg'
 import kartik from '../assets/kartik.jpeg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
