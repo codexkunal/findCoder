@@ -3,7 +3,7 @@ import BarChart from "./BarChart";
 import LineChart from "./LineChart";
 import PieChart from "./PieChart";
 import DoughnutChart from "./DoughnutChart";
-import "./AnalyticsPage.css"; // Import CSS for styling
+import "./analyticsPage.css"; // Import CSS for styling
 import { HiArrowLeft } from "react-icons/hi";
 import { useNavigate } from "react-router-dom";
 
