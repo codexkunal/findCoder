@@ -1,0 +1,57 @@
+.custom-markdown-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  
+  .custom-markdown-table th, .custom-markdown-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-markdown-table th {
+    background-color: #2d3748; /* Dark gray */
+    color: white;
+    font-weight: bold;
+  }
+  
+  .custom-markdown-table tr:nth-child(even) {
+    background-color: #2a2a2a; /* Alternate row color */
+  }
+  
+  .custom-markdown-table tr:hover {
+    background-color: #444; /* Row hover effect */
+  }
+  
+  .custom-markdown-table td {
+    color: #e2e8f0; /* Light gray text */
+  }
+  
+  .custom-markdown-table th, .custom-markdown-table td {
+    text-align: center; /* Center-align text */
+  }
+  
+
+.custom-scrollbar {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #4a5568 #2d3748; /* thumb color | track color */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #2d3748; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded edges for the track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4a5568; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded edges for the thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #718096; /* Hover color for the thumb */
+}

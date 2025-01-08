@@ -1,0 +1,31 @@
+.dough-chart-description{
+    /* border: 1px solid black; */
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: large;
+    color: #D1D5DB;
+    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.doughnut-chart-innerDiv{
+    /* border: 1px solid blue; */
+    background-color: #080d16;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+    
+}
+
+
+.dough-chart-heading{
+    /* border: 1px solid green; */
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #D1D5DB;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+}

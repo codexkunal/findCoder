@@ -1,0 +1,137 @@
+.analytics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  /* padding-top: 1rem; */
+  background-color: #121A29;
+  color: white;
+}
+
+.analyticsPage-gotohome-btn{
+  /* border: 1px solid rgb(255, 0, 0); */
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+.analyticsPage-gotohome-btn-inner-div{
+  margin-left: 9%;
+}
+
+.analytics-container h1{
+  font-size: 3rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.chart-container {
+  width: 80%; 
+  margin-bottom: 20px;
+}
+
+.bar-chart {
+  width: 80%;
+}
+
+.pie-doughnut-charts {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Total width for the Pie and Doughnut charts */
+}
+
+.pie-chart,
+.doughnut-chart {
+  width: 48%; /* 48% width for each chart, so they are side by side */
+}
+
+.line-chart {
+  width: 80%; /* Line chart at the bottom */
+}
+
+
+@media (max-width : 100px){
+
+}
+
+
+@media (max-width:700px) {
+  .analytics-container h1{
+    font-size: 2.5rem;
+    margin-top: -1rem;
+  }
+}
+
+
+@media (max-width : 610px) {
+  .pie-doughnut-charts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .pie-chart{
+    border: 1px solid black;
+    width: 80%;
+  }
+  
+  .doughnut-chart{
+    
+    width: 80%;
+    border: 1px solid black;
+  }
+  
+  .pie-dough{
+    
+    border: 1px solid blue;
+  }
+}
+
+
+@media (max-width : 510px) {
+  .analytics-container h1{
+    font-size: 2rem;
+    margin-top: -1rem;
+  }
+
+  .pie-chart{
+    border: 1px solid black;
+    width: 100%;
+  }
+  
+  .doughnut-chart{
+    
+    width: 100%;
+    border: 1px solid black;
+  }
+}
+
+
+
+@media (max-width : 400px) {
+  .analytics-container{
+    width: 100%;
+  }
+
+  .pie-chart{
+    border: 1px solid black;
+    width: 110%;
+  }
+  
+  .doughnut-chart{
+    
+    width: 110%;
+    border: 1px solid black;
+  }
+
+  .bar-chart{
+    width: 90%;
+  }
+
+  .line-chart{
+    width: 90%;
+  }
+}

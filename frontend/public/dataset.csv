@@ -1,0 +1,54 @@
+post_id,post_type,likes,shares,comments,views,clicks,content_length,image_quality,followers,region,age_group,hashtags
+1,carousel,145,362,56,0,76,58,HD,1086,Africa,25-34,#fashion
+2,carousel,166,101,142,0,198,61,HD,9863,South America,35-44,#travel
+3,carousel,247,441,24,0,185,95,HD,3032,North America,18-24,"#travel, #food, #fashion"
+4,carousel,552,38,175,0,176,104,HD,1734,Asia,18-24,#fashion
+5,carousel,761,496,9,0,119,156,HD,2453,Asia,45-54,"#fitness, #fashion, #travel"
+6,carousel,801,221,77,0,164,149,HD,2456,Asia,45-54,"#technology, #fashion, #travel"
+7,carousel,805,490,121,0,171,125,HD,8029,Europe,25-34,"#fashion, #fitness"
+8,carousel,899,18,9,0,50,58,HD,9965,Africa,25-34,"#fitness, #fashion"
+9,carousel,975,492,85,0,135,84,HD,8819,Asia,45-54,"#travel, #food, #fitness"
+10,carousel,103,446,141,0,182,99,SD,6628,Africa,45-54,#fitness
+11,carousel,171,181,127,0,75,103,SD,4525,North America,35-44,"#technology, #travel, #fitness"
+12,reels,239,244,44,2575,35,90,HD,2651,Asia,18-24,#travel
+13,reels,246,195,74,1533,172,183,HD,3226,South America,25-34,#technology
+14,reels,430,87,19,1161,168,190,HD,6231,Africa,25-34,"#food, #fitness, #fashion"
+15,reels,457,410,84,1346,129,150,HD,7348,South America,45-54,"#fitness, #food"
+17,reels,477,13,67,2842,28,52,HD,33574,Africa,18-24,"#food, #travel, #fashion"
+18,reels,596,187,197,4450,127,53,HD,1945,South America,25-34,"#food, #fitness"
+20,reels,718,143,67,3282,64,96,HD,85224,Asia,45-54,"#fitness, #travel, #fashion"
+21,reels,737,449,184,1077,193,149,HD,6376,North America,35-44,"#travel, #fitness"
+22,reels,140,293,60,3977,137,48,SD,7139,Africa,35-44,"#travel, #technology, #fitness"
+23,reels,273,465,134,2040,76,70,SD,4554,South America,35-44,#food
+24,reels,352,41,189,1735,53,130,SD,71708,North America,18-24,"#fitness, #food"
+25,static,245,126,131,0,11,67,HD,22312,South America,18-24,"#travel, #fitness, #food"
+26,static,407,434,52,0,63,64,HD,4852,Asia,35-44,"#food, #technology, #travel"
+27,static,418,294,147,0,23,159,HD,3013,Asia,18-24,#technology
+28,static,640,379,197,0,44,66,HD,5866,South America,18-24,"#technology, #travel, #food"
+29,static,656,182,84,0,92,61,HD,4572,Asia,18-24,"#fitness, #fashion"
+30,static,787,490,159,0,83,117,HD,2620,Asia,45-54,"#food, #fashion"
+31,static,908,490,98,0,90,178,HD,9162,Asia,25-34,"#fitness, #technology, #fashion"
+32,static,950,23,37,0,194,38,HD,2844,Asia,35-44,"#food, #technology"
+33,static,134,469,195,0,157,146,SD,9383,Europe,18-24,"#travel, #technology, #fitness"
+34,static,169,33,48,0,90,60,SD,5567,Europe,25-34,#fitness
+35,static,243,70,44,0,101,98,SD,52022,Africa,25-34,"#fitness, #fashion"
+36,video,995,56,77,1100,54,177,HD,2921,North America,45-54,#food
+37,video,207,381,197,2469,83,48,SD,1103,South America,18-24,"#technology, #fitness, #fashion"
+38,video,300,453,66,1152,79,38,SD,2263,North America,18-24,"#fitness, #fashion, #technology"
+39,video,331,473,66,733,84,30,SD,2873,Africa,35-44,#fashion
+40,video,361,143,17,3447,45,123,SD,2134,Africa,25-34,#food
+41,video,449,354,141,3926,40,118,SD,4735,Europe,35-44,"#fitness, #travel, #technology"
+42,video,516,436,10,1875,76,116,SD,14744,Africa,18-24,"#fitness, #fashion, #technology"
+43,video,565,442,117,564,161,47,SD,16550,North America,25-34,"#fitness, #food"
+44,video,698,187,63,3563,132,186,SD,4652,Asia,35-44,#travel
+45,video,736,436,100,3788,43,82,SD,6865,North America,18-24,#food
+46,story,709,43,143,0,168,105,HD,69229,Asia,45-54,"#technology, #food, #fashion"
+47,story,733,198,83,0,70,82,HD,39476,South America,25-34,"#fashion, #technology"
+48,story,737,395,41,0,145,179,HD,94270,North America,35-44,#food
+49,story,759,457,96,0,175,190,HD,8315,Asia,35-44,"#technology, #fashion, #travel"
+50,story,799,409,88,0,83,86,HD,2436,North America,35-44,"#food, #fashion, #travel"
+51,story,825,271,61,0,61,186,HD,35950,Asia,35-44,#technology
+52,story,834,368,116,0,164,188,HD,2862,Africa,45-54,"#travel, #food"
+53,story,929,203,76,0,140,79,HD,3505,South America,35-44,"#fitness, #fashion, #travel"
+54,story,366,208,90,0,40,91,SD,82214,Europe,35-44,"#fashion, #travel"
+55,story,453,134,41,0,50,63,SD,83614,South America,45-54,"#fitness, #travel, #technology"
