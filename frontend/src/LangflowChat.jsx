@@ -34,7 +34,7 @@ export default function LangflowChat() {
     setError("");
 
     try {
-      const response = await axios.post("https://codefinder.onrender.com", { message });
+      const response = await axios.post("https://findcoder-server.onrender.com", { message });
       const botResponse = {
         role: "bot",
         content: response.data || "",
