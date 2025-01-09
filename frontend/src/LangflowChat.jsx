@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { HiArrowLeft } from "react-icons/hi"; // Heroicons
-import { MdSend } from "react-icons/md"; // Material Design icons
+import { HiArrowLeft } from "react-icons/hi"; 
+import { MdSend } from "react-icons/md"; 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import './langflow.css'
@@ -34,7 +34,7 @@ export default function LangflowChat() {
     setError("");
 
     try {
-      const response = await axios.post("https://findcoder-server.onrender.com", { message });
+      const response = await axios.post("https://findcoder-server.onrender.com/api/message", { message });
       const botResponse = {
         role: "bot",
         content: response.data || "",

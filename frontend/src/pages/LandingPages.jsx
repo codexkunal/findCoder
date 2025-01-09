@@ -8,54 +8,47 @@ import {
   TrendingUp,
   Search,
 } from "lucide-react";
-import './landingPages.css'
-import david from '../assets/david.jpg'
-import jug from '../assets/jug.jpeg'
-import kunal from '../assets/Kunal.jpeg'
-import kartik from '../assets/kartik.jpeg'
+import "./landingPages.css";
+import david from "../assets/david.jpg";
+import jug from "../assets/jug.jpeg";
+import kunal from "../assets/Kunal.jpeg";
+import kartik from "../assets/kartik.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faChartLine } from '@fortawesome/free-solid-svg-icons';
-import analytics from '../assets/analytics.jpg'
-
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faChartLine } from "@fortawesome/free-solid-svg-icons";
+import analytics from "../assets/analytics.jpg";
 
 function LandingPage() {
   const navigate = useNavigate();
   const youtubeID = "rt5Z07ZqPWo";
 
-
-
   const developers = [
     {
-      name: 'David Malviya',
+      name: "David Malviya",
       image: david,
-      linkedin: 'https://www.linkedin.com/in/davidmalviya/',
-      github: 'https://github.com/david-malviya',
+      linkedin: "https://www.linkedin.com/in/davidmalviya/",
+      github: "https://github.com/david-malviya",
     },
     {
-      name: 'Sengar Kunal Singh',
+      name: "Sengar Kunal Singh",
       image: kunal,
-      linkedin: 'https://www.linkedin.com/in/kunalsingh111/',
-      github: 'https://www.github.com/codexkunal',
+      linkedin: "https://www.linkedin.com/in/kunalsingh111/",
+      github: "https://www.github.com/codexkunal",
     },
     {
-      name: 'JugrajSingh Rajpurohit',
+      name: "JugrajSingh Rajpurohit",
       image: jug,
-      linkedin: 'https://www.linkedin.com/in/jugrajsingh18/',
-      github: 'https://github.com/Jugrajsinghl',
+      linkedin: "https://www.linkedin.com/in/jugrajsingh18/",
+      github: "https://github.com/Jugrajsinghl",
     },
     {
-      name: 'Kahar Kartik',
+      name: "Kahar Kartik",
       image: kartik,
-      linkedin: 'https://www.linkedin.com/in/kahar-kartik/',
-      github: 'https://github.com/KaharKartik',
+      linkedin: "https://www.linkedin.com/in/kahar-kartik/",
+      github: "https://github.com/KaharKartik",
     },
   ];
-
-
-
-
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
@@ -67,7 +60,7 @@ function LandingPage() {
         </div>
         <div className="flex items-center space-x-6">
           <a
-            href="https://github.com"
+            href="https://github.com/david-malviya/findCoder"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-white hover:text-blue-400 transition-colors"
@@ -108,7 +101,6 @@ function LandingPage() {
               Start Analyzing Now
             </button>
           </div>
-
         </div>
 
         {/* Hero Image */}
@@ -124,32 +116,25 @@ function LandingPage() {
         </div>
       </main>
 
-
       {/* Analytics part */}
-      <div className="growth-main-container flex items-center justify-between">
-        <div className="growth-container">
-          <img
-            src={analytics}
-            alt="Growth"
-            className="growth-image"
-          />
+      <div className="flex items-center justify-between container mx-auto px-6 py-16 ">
+        <div className="growth-container ">
+          <img src={analytics} alt="Growth" className="growth-image" />
         </div>
 
-        <div className="growth-text-container text-right">
+        <div className="growth-text-container text-right relative">
+          <p className="growth-description mb-9 p text-lg text-white ">
+          Visualize your progress through comprehensive pie charts, bar graphs, and line graphs. Analyze the data to gain actionable insights and see how your efforts are driving growth effectively.
+          </p>
           <button
             onClick={() => navigate("/graph")}
             className="px-8 py-3 bg-white text-black rounded-lg hover:bg-slate-400 transition-colors text-lg"
           >
-            See your Growth <FontAwesomeIcon icon={faChartLine} className="ml-2 text-lg" />
+            See your Growth{" "}
+            <FontAwesomeIcon icon={faChartLine} className="ml-2 text-lg" />
           </button>
-          <p className="growth-description mt-4 text-lg text-gray-700">
-            Track your progress and see how your efforts are contributing to growth.
-            Analyze data and gain insights to improve further.
-          </p>
         </div>
       </div>
-
-
 
       {/* Features Section */}
       <section className="container mx-auto px-6 py-16">
@@ -166,7 +151,9 @@ function LandingPage() {
           </div>
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300">
             <TrendingUp className="h-12 w-12 text-blue-500 mb-4" />
-            <h3 className="text-xl font-bold text-white mb-2">Trend Detection</h3>
+            <h3 className="text-xl font-bold text-white mb-2">
+              Trend Detection
+            </h3>
             <p className="text-gray-400">
               Stay ahead of the curve with real-time trend analysis.
             </p>
@@ -196,7 +183,7 @@ function LandingPage() {
             style={{
               width: "100%",
               maxWidth: "800px", // Matches the UI's width
-              height: "450px",   // Matches the proportionate height
+              height: "450px", // Matches the proportionate height
               border: "4px solid #2D3748", // Adds a subtle border for design consistency
             }}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -204,7 +191,6 @@ function LandingPage() {
           ></iframe>
         </div>
       </section>
-
 
       {/* {developer section} */}
       {/* <footer className="developer-footer">
@@ -243,48 +229,43 @@ function LandingPage() {
         </div>
       </footer> */}
 
-
       <footer className="developer-footer">
-  <h1>Our Developers</h1>
-  <div className="our_developer_border_bottom"></div>
-  <div className="developer-container">
-    {developers.map((dev, index) => (
-      <div className="developer-card" key={index}>
-        <img src={dev.image} alt={dev.name} className="developer-image" />
-        <h4 className="developer-name">{dev.name}</h4>
-        <p className="developer-subject">Computer Engineering (AI/ML)</p>
-        <div className="developer-links">
-          <a
-            href={dev.linkedin}
-            className="developer-linkedin"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              className="developer-linkedin-icon"
-            />
-          </a>
-          <a
-            href={dev.github}
-            className="developer-github"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={faGithub}
-              className="developer-github-icon"
-            />
-          </a>
+        <h1>Our Developers</h1>
+        <div className="our_developer_border_bottom"></div>
+        <div className="developer-container">
+          {developers.map((dev, index) => (
+            <div className="developer-card" key={index}>
+              <img src={dev.image} alt={dev.name} className="developer-image" />
+              <h4 className="developer-name">{dev.name}</h4>
+              <p className="developer-subject">Computer Engineering (AI/ML)</p>
+              <div className="developer-links">
+                <a
+                  href={dev.linkedin}
+                  className="developer-linkedin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="developer-linkedin-icon"
+                  />
+                </a>
+                <a
+                  href={dev.github}
+                  className="developer-github"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="developer-github-icon"
+                  />
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
-      </div>
-    ))}
-  </div>
-</footer>
-
-
-
-
+      </footer>
     </div>
   );
 }
