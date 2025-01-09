@@ -172,25 +172,20 @@ function LandingPage() {
 
       {/* Video Section */}
       <section className="container mx-auto px-6 py-16">
-        <h2 className="text-4xl font-bold text-center text-white mb-12">
-          See How It Works
-        </h2>
-        <div className="flex justify-center">
-          <iframe
-            className="rounded-lg shadow-xl"
-            title="SocialScope Demo Video"
-            src={`https://youtube.com/embed/${youtubeID}?autoplay=0`}
-            style={{
-              width: "100%",
-              maxWidth: "800px", // Matches the UI's width
-              height: "450px", // Matches the proportionate height
-              border: "4px solid #2D3748", // Adds a subtle border for design consistency
-            }}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </section>
+  <h2 className="text-4xl font-bold text-center text-white mb-12">
+    See How It Works
+  </h2>
+  <div className="relative w-full max-w-4xl mx-auto aspect-w-16 aspect-h-9">
+    <iframe
+      className="rounded-lg shadow-xl w-full h-full"
+      title="SocialScope Demo Video"
+      src={`https://youtube.com/embed/${youtubeID}?autoplay=0`}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</section>
+
 
       {/* {developer section} */}
       {/* <footer className="developer-footer">
